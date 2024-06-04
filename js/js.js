@@ -18,17 +18,12 @@ let etaUtente = parseInt(prompt('Quanti anni hai?'));
 // va applicato uno sconto del 40% per gli over 65.
 if(etaUtente < 18){
     costoPrezzoStandard *= 0.8
-    prezzoFinale = costoPrezzoStandard.toFixed(2)
-    testoPaginaPrezzo.innerHTML = prezzoFinale
+    
 }else if(etaUtente > 65){
     costoPrezzoStandard *= 0.6
-    prezzoFinale = costoPrezzoStandard.toFixed(2)
-    testoPaginaPrezzo.innerHTML = prezzoFinale
-} else{
-    prezzoFinale = costoPrezzoStandard.toFixed(2)
-    testoPaginaPrezzo.innerHTML = prezzoFinale
-}
+} 
 
-
+prezzoFinale = costoPrezzoStandard.toFixed(2)
+testoPaginaPrezzo.innerHTML = prezzoFinale
 
 
