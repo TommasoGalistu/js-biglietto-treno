@@ -6,7 +6,6 @@ let chilometriViaggio = parseInt(prompt('Quanti chilometri devi percorrere?'));
 
 // calcolo dei km con prezzo standard
 let costoPrezzoStandard = chilometriViaggio * 0.21;
-console.log(costoPrezzoStandard)
 
 //  chiedere l’età del passeggero.
 // prompt per chiedere l'età al passeggero
@@ -29,6 +28,7 @@ if(etaUtente < 18){
     prezzoFinale = costoPrezzoStandard.toFixed(2)
     testoPaginaPrezzo.innerHTML = prezzoFinale
 }
+
 
 
 
